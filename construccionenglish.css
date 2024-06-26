@@ -1,0 +1,336 @@
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+}
+
+#black
+{
+    background-color: black;
+}
+.contenedor{
+    background-color: black;
+    height: auto;
+    width: auto;
+    position: fixed;
+    display: flex;
+    top:  0%;
+    left: 0%;
+   
+    
+    }
+nav{
+    background-color: black;
+}
+
+.item{
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+#imagen{
+    height: 800px;
+    width: 1850px;
+    margin: -20px;
+    padding-top: 155px;
+    
+}
+#logo{
+    position: fixed;
+    width: 10%;
+    height: auto;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+a{
+    position: fixed;
+}
+#Sale1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 14%; 
+    font-size: 4vw;
+    margin-top: 130px;
+    display: flex;
+}
+#Alquiler{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 28%; 
+    font-size: 4vw;
+    margin-top: 130px;
+}
+#Alojamiento{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 44%; 
+    font-size: 4vw;
+    margin-top: 130px;
+}
+#Contacto{font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 77%; 
+    font-size: 4vw;
+    margin-top: 130px;}
+    div{
+        height: 30%;
+        width: 100%;
+        margin: -20px;
+    }
+.black{
+    background-color: black;
+}
+
+video{
+margin-top: 50%;
+margin-left: 8%;
+width: 70%;
+height: auto;
+}
+p{
+    color:white;
+    position: fixed;
+    margin-left: 1200px;
+}
+
+#texto2{
+    font-size: 2.5vw;
+     margin-top: 52px;
+     margin-left: 45%
+}
+#texto1{
+margin-top: 50px;
+margin-left: 30%;
+    font-size: 2.5vw;
+}
+
+
+#copy{
+    margin-top: 700px;
+    margin-left: 20px;
+
+color: black;
+}
+a{cursor: pointer;}
+body{
+background: url("pexels-photo-1450353.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0px 120px;
+
+}
+#black{
+    display: flex;
+    width: 10%;
+    height: 10%;
+    margin-top: 25%
+}
+@media only screen and (min-width : 200px) and (max-width : 350px){
+
+    #black{
+        margin-top: 30%
+    }
+    #Sale1{
+       margin-left: 23%;
+        margin-top: 120px;
+        display: flex;
+    }
+    #Alquiler{
+        margin-left: 38%;
+        margin-top: 120px;
+    }
+    #Alojamiento{
+        margin-left: 56%;
+        margin-top: 120px;
+    }
+    #Contacto{
+        margin-left: 90%;
+        margin-top: 120px;}
+
+        #logo{
+            margin-top: 16%;
+            margin-left: 16%;
+        }
+        #texto2{
+       
+             margin-top: 45px;
+             margin-left: 45%
+           
+        }
+        #copy{
+            margin-top: 200%
+           }
+
+}
+
+@media only screen and (min-width : 700px) and (max-width : 980px){
+
+    #black{
+        margin-top: 15%
+    }
+    #Sale1{
+       
+        margin-top: 25%;
+        display: flex;
+    }
+    #Alquiler{
+       
+        margin-top: 25%;
+    }
+    #Alojamiento{
+       
+        margin-top: 25%;
+    }
+    #Contacto{
+
+        margin-top: 25%;}
+
+        #logo{
+            margin-top: 8%;
+            margin-left: 10%;
+        }
+        #texto2{
+       
+             margin-top: 10%
+           
+        }
+
+        #texto1{
+       
+            margin-top: 8%
+          
+       }
+       #copy{
+        margin-top: 130%
+       }
+
+}
+
+
+@media only screen and (min-width : 1000px) and (max-width : 1300px){
+
+    #black{
+        margin-top: 10%
+    }
+    #Sale1{
+       
+        margin-top: 20%;
+        display: flex;
+    }
+    #Alquiler{
+       
+        margin-top: 20%;
+    }
+    #Alojamiento{
+       
+        margin-top: 20%;
+    }
+    #Contacto{
+
+        margin-top: 20%;}
+
+        #logo{
+            margin-top: 6%;
+            margin-left: 8%;
+        }
+        #texto2{
+       
+             margin-top: 10%;
+             margin-left: 45%
+           
+        }
+
+        #texto1{
+       
+            margin-top: 8%
+          
+       }
+       #copy{
+        margin-top: 58%
+       }
+
+       video{
+        height: 50%;
+        width: 50%;
+        margin-top: 15%;
+        margin-left: 20%
+       }
+
+}
+
+@media only screen and (min-width : 1301px) and (max-width : 2200px){
+
+    #black{
+        margin-top: 12%;
+        width: 200vw;
+        height: 30px
+
+    }
+    #Sale1{
+       
+        margin-top: 20%;
+        display: flex;
+    }
+    #Alquiler{
+       
+        margin-top: 20%;
+    }
+    #Alojamiento{
+       
+        margin-top: 20%;
+    }
+    #Contacto{
+
+        margin-top: 20%;}
+
+        #logo{
+            margin-top: 6%;
+            margin-left: 8%;
+        }
+        #texto2{
+       
+             margin-top: 10%;
+             margin-left: 45%
+           
+        }
+
+        #texto1{
+       
+            margin-top: 8%
+          
+       }
+       #copy{
+        margin-top: 80%
+       }
+
+       video{
+        height: 50%;
+        width: 50%;
+        margin-top: 15%;
+        margin-left: 20%
+       }
+
+}
+@media only screen and (min-width : 540px) and (max-width : 600px){
+    #black{
+        margin-top: 14%;
+
+    }
+    #logo{
+        margin-top: 8%;
+       
+    }
+
+}
